@@ -21,9 +21,40 @@ namespace ExerciseTracker
             }
 
             // I'd also like to know the total weight lifted, and the total distance travelled - how can we manage those?
-            
-            
+            int totalDistance = 0;
+
+            foreach (var exercise in exercisesCompleted)
+            {
+                if (exercise is Jogging)
+                {
+                    totalDistance += ((Jogging)exercise).Distance;
+                }
+                else if (exercise is Rowing)
+                {
+                    totalDistance += ((Rowing)exercise).Distance;
+                }
+            }
+
+            Console.WriteLine("Total distance of jogging and rowing: " + totalDistance);
+
+            int totalWeight = 0;
+
+            foreach (var exercise in exercisesCompleted)
+            {
+                if (exercise is Deadlift)
+                {
+                    totalWeight += ((Deadlift)exercise).TotalLifted();
+                }
+                else if (exercise is Squat)
+                {
+                    totalWeight += ((Squat)exercise).TotalLifted();
+                }
+            }
+
+            Console.WriteLine("Total weight of squats and deadlifts: " + totalWeight);
+
             Console.ReadLine();
+
         }
     }
 }
