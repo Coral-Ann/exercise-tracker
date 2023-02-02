@@ -1,0 +1,15 @@
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\ExerciseTracker.csproj.AssemblyReference.cache
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\ExerciseTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\ExerciseTracker.AssemblyInfoInputs.cache
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\ExerciseTracker.AssemblyInfo.cs
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\ExerciseTracker.csproj.CoreCompileInputs.cache
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\bin\Debug\net7.0\ExerciseTracker.exe
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\bin\Debug\net7.0\ExerciseTracker.deps.json
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\bin\Debug\net7.0\ExerciseTracker.runtimeconfig.json
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\bin\Debug\net7.0\ExerciseTracker.dll
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\bin\Debug\net7.0\ExerciseTracker.pdb
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\ExerciseTracker.dll
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\refint\ExerciseTracker.dll
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\ExerciseTracker.pdb
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\ExerciseTracker.genruntimeconfig.cache
+C:\MyProjects\Makers\csharp-fundamentals\workshops\inheritance_and_interfaces\ExerciseTracker\ExerciseTracker\obj\Debug\net7.0\ref\ExerciseTracker.dll
