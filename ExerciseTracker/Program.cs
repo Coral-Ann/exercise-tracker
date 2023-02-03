@@ -6,53 +6,32 @@ namespace ExerciseTracker
     {
         static void Main(string[] args)
         {
-            //We'll use some dummy data for now. Annoyingly, there are loads of errors here, let's fix them!
             IExercise[] exercisesCompleted = new IExercise[] {
                 new Deadlift { Reps = 5, Sets = 2, Weight = 35 },
-                new Jogging { Distance = 2, Time = 20 },
+                new Jogging { Distance = 2, Time = 20, Speed = 10 },
                 new Squat { Reps = 10, Sets = 4, Weight = 12 },
-                new Rowing { Distance = 1000, Time = 6 }
+                new Rowing { Distance = 1000, Time = 6, Speed = 15 }
             };
 
+            int overallDistance = 0;
+            int overallWeight = 0;
+
             foreach (var exercise in exercisesCompleted)
             {
-                //this is also giving an error, what's wrong here?
                 Console.WriteLine(exercise.Report());
-            }
 
-            // I'd also like to know the total weight lifted, and the total distance travelled - how can we manage those?
-            int totalDistance = 0;
-
-            foreach (var exercise in exercisesCompleted)
-            {
-                if (exercise is Jogging)
+                if (exercise is AerobicsExercise aerobics)
                 {
-                    totalDistance += ((Jogging)exercise).Distance;
+                    overallDistance += aerobics.Distance;
                 }
-                else if (exercise is Rowing)
+                else if (exercise is WeightsExercise weights)
                 {
-                    totalDistance += ((Rowing)exercise).Distance;
+                    overallWeight += weights.TotalLifted();
                 }
             }
 
-            Console.WriteLine("Total distance of jogging and rowing: " + totalDistance);
-
-            int totalWeight = 0;
-
-            foreach (var exercise in exercisesCompleted)
-            {
-                if (exercise is Deadlift)
-                {
-                    totalWeight += ((Deadlift)exercise).TotalLifted();
-                }
-                else if (exercise is Squat)
-                {
-                    totalWeight += ((Squat)exercise).TotalLifted();
-                }
-            }
-
-            Console.WriteLine("Total weight of squats and deadlifts: " + totalWeight);
-
+            Console.WriteLine($"Total distance of jogging and rowing: {overallDistance}");
+            Console.WriteLine($"Total weight of squats and deadlifts: {overallWeight}");
             Console.ReadLine();
 
         }

@@ -10,10 +10,11 @@ namespace ExerciseTracker.Test
             var row = new Rowing
             {
                 Distance = 1000,
-                Time = 6
+                Time = 6,
+                Speed = 15
             };
 
-            Assert.That(row.Report(), Is.EqualTo("Rowing: 1000m, 6 minutes"));
+            Assert.That(row.Report(), Is.EqualTo("Rowing: 1000m, 6 minutes, 15kph"));
         }
     }
 }

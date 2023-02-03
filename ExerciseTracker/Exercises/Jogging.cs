@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace ExerciseTracker.Exercises
 {
-    public class Jogging : IExercise
+    public class Jogging : AerobicsExercise
     {
-        public int Distance { get; set; }
-        public int Time { get; set; }
-        public int Speed { get; set; }
-
-        public string Report()
+        public override string Report()
         {
             return $"Jogging: {Distance}m, {Time} minutes, {Speed}kph";
         }

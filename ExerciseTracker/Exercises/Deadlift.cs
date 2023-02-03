@@ -6,21 +6,12 @@ using System.Threading.Tasks;
 
 namespace ExerciseTracker.Exercises
 {
-    public class Deadlift: IExercise
+    public class Deadlift: WeightsExercise
     {
-        public int Weight { get; set; }
-        public int Sets { get; set; }
-        public int Reps { get; set; }
 
-        public string Report()
+        public override string Report()
         {
             return $"Deadlift: {Reps} reps, {Sets} sets, {Weight}kg";
-        }
-
-        public int TotalLifted()
-        {
-            int result = (Weight * Reps) * Sets;
-            return result;
         }
     }
 }
