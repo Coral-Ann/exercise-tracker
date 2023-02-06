@@ -8,8 +8,7 @@
 
         public int TotalLifted()
         {
-            int result = (Weight * Reps) * Sets;
-            return result;
+            return (Weight * Reps) * Sets;
         }
 
         public abstract string Report();
